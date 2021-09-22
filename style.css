@@ -5,10 +5,16 @@ body {
     font-weight: bold;
 }
 
-/* main panel */
+/* main panel (centered screen) */
 .maindiv {
     background-color: white;
     color: black;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;    
     width: 540px;
     height: 340px;
     padding: 10px 20px;
